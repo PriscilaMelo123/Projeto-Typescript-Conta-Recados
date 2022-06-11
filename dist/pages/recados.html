@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Página Recados</title>
+		<link
+			rel="stylesheet"
+			href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../css/recados.css" />
+	</head>
+
+	<body>
+		<header class="container-fluid">
+			<!--CABEÇALHO-->
+			<div class="">
+				<h1 class="fw-bold text-start p-2">Meus Recados</h1>
+				<a href="../pages/login.html">Home</a>
+				<form action="" class="row mt-2 bg-light">
+					<div class="col-12 col-sm-5 m-1">
+						<input
+							type="text"
+							name="descricao"
+							id="input-descricao"
+							placeholder="Descrição"
+							class="form-control input-note"
+						/>
+					</div>
+					<div class="col-12 col-sm-5 m-1">
+						<input
+							type="text"
+							name="detalhametno"
+							id="input-detalhamento"
+							placeholder="Detalhamento"
+							class="form-control input-note"
+						/>
+					</div>
+					<div class="col-12 col-sm-1 m-1">
+						<input
+							type="button"
+							value="Salvar"
+							class="btn btn-success"
+							id="btn-post"
+						/>
+					</div>
+				</form>
+			</div>
+		</header>
+		<main>
+			<div class="m-2 table-responsive">
+				<table class="table table-hover align-middle" id="note-table">
+					<thead class="">
+						<tr class="fw-bold text-start">
+							<th>Descrição</th>
+							<th>Detalhamento</th>
+							<th>Ações</th>
+						</tr>
+					</thead>
+					<tbody class="table-group-divider">
+						<!-- <tr id="tr-recados">
+							<td>Titulo Exemplo</td>
+							<td>Descrição Exemplo</td>
+							<td>
+								<button class="btn btn-primary m-1">Editar</button>
+								<button class="btn btn-danger m-1">Apagar</button>
+							</td>
+						</tr> -->
+					</tbody>
+				</table>
+			</div>
+		</main>
+
+		<!-- <div>
+			<table class="tabela-recados" id="note-table">
+				<thead>
+					<tr>
+						<th>Descrição</th>
+						<th>Detalhamento</th>
+						<th>Ações</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr id="tr-recados">
+                        <td>Titulo Exemplo</td>
+                        <td>Descrição Exemplo</td>
+                        <td>
+                            <button class="btn-editar">Editar</button>
+                            <button class="btn-apagar">Apagar</button>
+                        </td>
+                    </tr>
+				</tbody>
+			</table>
+		</div> -->
+
+		<script src="../js/recados.js"></script>
+	</body>
+</html>

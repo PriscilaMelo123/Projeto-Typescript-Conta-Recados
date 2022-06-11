@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cadastro</title>
+		<link
+			rel="stylesheet"
+			href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div class="container w-75 mt-5 rounded-4 shadow">
+			<div class="row bg-white rounded-4 align-items-md-stretch">
+				<div class="col">
+					<h2 class="fw-bold text-center pt-5 mb-5">Crie sua conta</h2>
+					<form action="">
+						<div class="mb-6">
+							<label for="email" class="form-label">Email</label>
+							<input
+								type="email"
+								class="form-control conta1"
+								id="input-email"
+								name="input-email"
+							/>
+						</div>
+						<div class="mb-6 mt-2">
+							<label for="password" class="form-label">Senha</label>
+							<input
+								type="password"
+								class="form-control conta1"
+								id="input-senha"
+								name="input-senha"
+							/>
+						</div>
+						<div class="mb-6 mt-2">
+							<label for="password" class="form-label">Repetir senha</label>
+							<input
+								type="password"
+								class="form-control conta1"
+								id="input-confirma-senha"
+								name="input-confirma-senha"
+							/>
+						</div>
+						<div class="d-grid mt-2">
+							<button type="button" id="btn-cadastrar" class="btn btn-success">
+								Criar conta
+							</button>
+						</div>
+						<div class="my-3">
+							<span>Já possui conta? <a href="./login.html">Login</a></span>
+						</div>
+					</form>
+				</div>
+				<div
+					class="col bg d-none d-md-block col-md-5 col-lg-6 col-xl-6 rounded-4"
+				></div>
+			</div>
+		</div>
+		<script src="../js/cadastro.js"></script>
+	</body>
+</html>

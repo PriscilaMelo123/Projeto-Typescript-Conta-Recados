@@ -1,0 +1,20 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+header{
+    background: linear-gradient(to right, #ffa751, #ffe259);
+}
+
+body {
+  animation: slide;
+  animation-duration: 2s;
+}
+
+@keyframes slide {
+  from {
+      opacity: 0;
+  }to {
+      opacity: 1;
+  }
+}

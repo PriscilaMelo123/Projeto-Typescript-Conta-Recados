@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link
+			rel="stylesheet"
+			href="../bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css"
+		/>
+		<link rel="stylesheet" href="../css/style.css" />
+	</head>
+	<body>
+		<div class="container w-75 mt-5 rounded-4 shadow">
+			<div class="row bg-white rounded-4 align-items-md-stretch">
+				<div class="col bg d-none d-md-block col-md-5 col-lg-6 col-xl-6 rounded-4"></div>
+				<div class="col">
+					<h2 class="fw-bold text-center pt-5 mb-5" id="animar">Bem vindo</h2>
+					<form action="">
+						<div class="mb-6">
+							<label for="email" class="form-label">Email</label>
+							<input
+								type="email"
+								class="form-control"
+								name="email"
+								id="email-login"
+							/>
+						</div>
+						<div class="mb-6 mt-2">
+							<label for="password" class="form-label">Senha</label>
+							<input
+								type="password"
+								class="form-control"
+								name="password"
+								id="senha-login"
+							/>
+						</div>
+						<div class="d-grid mt-2">
+							<button type="submit" class="btn btn-success" id="btn-login">
+								Entrar
+							</button>
+						</div>
+						<div class="my-3">
+							<span>Sem conta? <a href="./cadastro.html">Registrar-se</a></span>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="../js/index.js"></script>
+	</body>
+</html>
